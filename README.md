@@ -22,4 +22,3 @@ Plug 'banminkyoz/ezbuf.vim'
 ## License
 
 MIT @ [Kyoz](mailto:banminkyoz@gmail.com)
-````````
