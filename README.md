@@ -12,12 +12,12 @@ Plug 'banminkyoz/ezbuf.vim'
 
 ## Usage
 
-| Keymap     | Command      | Action                                           |
-| ---        | ---          | ---                                              |
-| <leader>bx | :BClose      | Close current buffer or provided buffer          |
-| <leader>bX | :BCloseAll   | Close all buffers                                |
-| <leader>bo | :BCloseOther | Close other buffers (or all except provided)     |
-| <leader>bs | :BCloseSaved | Close all saved buffers                          |
+| Keymap       | Command      | Action                                           |
+| ---          | ---          | ---                                              |
+| \<Leader\>bx | :BClose      | Close current buffer or provided buffer          |
+| \<Leader\>bX | :BCloseAll   | Close all buffers                                |
+| \<Leader\>bo | :BCloseOther | Close other buffers (or all except provided)     |
+| \<Leader\>bs | :BCloseSaved | Close all saved buffers                          |
 
 ## License
 
