@@ -1,0 +1,58 @@
+*ezbuf.txt*                                Fast and easy ways to use vim buffers
+
+================================================================================
+CONTENTS                                                        *ezbuf-contents*
+
+     1. Intro.............................................|ezbuf-intro|
+     2. Commands..........................................|ezbuf-commands|
+     3. Mappings..........................................|ezbuf-mappings|
+     4. Changelogs........................................|ezbuf-changelogs|
+
+================================================================================
+INTRO                                                              *ezbuf-intro*
+
+Provide simple, fast and useful ways to manage your buffers.
+
+================================================================================
+COMMANDS                                                        *ezbuf-commands*
+
+                                                                       *:BClose*
+:BClose [buffer name/number]
+    Close current buffer or provided buffer (can be name or id).
+
+    If no argument is given as provided buffer. ezbuf will close current buffer.
+
+                                                                    *:BCloseAll*
+:BCloseAll
+    Close All buffers
+
+                                                                  *:BCloseOther*
+:BCloseOther [buffer name/number]
+    Close other buffers (Or all buffers except provided buffer).
+
+    If there is a argument of provided buffer. ezbuf will close all buffers
+    except that buffer. Or else, close all buffers and keep the current buffer.
+
+                                                                  *:BCloseSaved*
+:BCloseSaved
+    Close all saved buffers
+
+================================================================================
+MAPPINGS                                                        *ezbuf-mappings*
+
+<leader>bx
+    Close current buffer.
+
+<leader>bX
+    Close all buffers
+
+<leader>bo
+    Close other buffers
+
+<leader>bs
+    Close all saved buffers
+
+================================================================================
+CHANGELOGS                                                    *ezbuf-changelogs*
+
++ 21 Feb 2019: Init ezbuf.vim
