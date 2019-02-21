@@ -40,19 +40,19 @@ COMMANDS                                                        *ezbuf-commands*
 ================================================================================
 MAPPINGS                                                        *ezbuf-mappings*
 
-<leader>bx
-    Close current buffer.
+  <leader>bx
+      Close current buffer.
 
-<leader>bX
-    Close all buffers
+  <leader>bX
+      Close all buffers
 
-<leader>bo
-    Close other buffers
+  <leader>bo
+      Close other buffers
 
-<leader>bs
-    Close all saved buffers
+  <leader>bs
+      Close all saved buffers
 
 ================================================================================
 CHANGELOGS                                                    *ezbuf-changelogs*
 
-+ 21 Feb 2019: Init ezbuf.vim
+  + 21 Feb 2019: Init ezbuf.vim
