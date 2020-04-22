@@ -7,7 +7,7 @@
 Install with Vim Plug, other plugin managers is similar.
 
 ```vim
-Plug 'banminkyoz/ezbuf.vim'
+Plug 'kyoz/ezbuf.vim'
 ```
 
 ## Usage
